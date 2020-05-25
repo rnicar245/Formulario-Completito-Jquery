@@ -35,7 +35,8 @@ $(function() {
             }
             
         });
-        $("select").val("DAW");
+        $("select").val("DAW").trigger("blur");
+        $("input").trigger("blur");
     })
 });
     
