@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8"/>
 <title>Index</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="index.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
 <script src="validar.js"></script>
-<script src="index.js">
-</script>
+<script src="index.js"></script>
 </head>
 
 <body>
@@ -15,28 +15,28 @@
 </noscript>
 
 <form id="formulario">
-  <label>Texto obligatorio: <input class="elementoBlur" type="text" id="texto"/></label>
+  <label>Texto obligatorio: <input type="text" id="texto"/></label>
   <span > </span><br><br>
 
-  <label>Numérico: <input class="elementoBlur" type="text" id="num"/></label>
+  <label>Numérico: <input  type="text" id="num"/></label>
   <span > </span><br><br>
 
-  <label>Correo electrónico: <input class="elementoBlur" type="text" id="email"/></label>
+  <label>Correo electrónico: <input  type="text" id="email"/></label>
   <span > </span><br><br>
 
-  <label>DNI: <input class="elementoBlur" type="text" id="dni"></label>
+  <label>DNI: <input  type="text" id="dni"></label>
   <span > </span><br><br>
 
-  <label>Fecha de nacimiento: <input class="elementoBlur" type="text" id="fecha"/></label>
+  <label>Fecha de nacimiento: <input  type="text" id="fecha"/></label>
   <span > </span><br><br>
 
-  <label>Número de teléfono: <input class="elementoBlur" type="text" id="tel"/></label>
+  <label>Número de teléfono: <input  type="text" id="tel"/></label>
   <span > </span><br><br>
 
-  <label>URL: <input class="elementoBlur" type="text" id="url"/></label>
+  <label>URL: <input  type="text" id="url"/></label>
   <span > </span><br><br>
 
-  <label>Módulo: <select class="elementoBlur" id="modulo">
+  <label>Módulo: <select  id="modulo">
     <option hidden disabled selected value>Elige una opción</option> 
     <option value="DAW">DAW</option> 
     <option value="DIW">DIW</option>
@@ -46,20 +46,20 @@
   <span > </span><br><br>
 
   <label>Aficiones
-    <input class="elementoBlur" id="aficion1" type="checkbox" name="aficion1" value="Programar1"> Programar
-    <input class="elementoBlur" id="aficion2" type="checkbox" name="aficion2" value="Programar2"> Programar de pie
-    <input class="elementoBlur" id="aficion3" type="checkbox" name="aficion3" value="Programar3"> Programar con los pies</label>
+    <input  id="aficion1" type="checkbox" name="aficion1" value="Programar1"> Programar
+    <input  id="aficion2" type="checkbox" name="aficion2" value="Programar2"> Programar de pie
+    <input  id="aficion3" type="checkbox" name="aficion3" value="Programar3"> Programar con los pies</label>
   <span > </span><br><br>
 
   <label>Grado:
-    <input class="elementoBlur" id="grado" type="radio" name="grado" value="DAW"> DAW
-    <input class="elementoBlur" id="grado" type="radio" name="grado" value="Sistemas"> Sistemas</label>
+    <input  id="grado" type="radio" name="grado" value="DAW"> DAW
+    <input  id="grado" type="radio" name="grado" value="Sistemas"> Sistemas</label>
   <span > </span><br><br>
 
-  <input type="submit" id="boton" value="Validar" required>
+  <button type="submit">Validar</button>
+  <button type="reset">Reiniciar</button>
   </form>
   <p style="color:green"> </p>
-  <button id="reiniciar">Reiniciar</button>
   <button id="rellenar">Rellenar</button>
   
 </body>

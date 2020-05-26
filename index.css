@@ -1,0 +1,8 @@
+.valido{
+    border: 1px solid green;
+    background-color: #58D68D;
+}
+.erroneo{
+    border: 1px solid red;
+    background-color: #F5B7B1;
+}
